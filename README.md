@@ -10,6 +10,10 @@ GPS coordinates are included in the status message to facilitate the use of the 
 
 ## Building and Running the Detection System
 
+There are two SDK projects in the repo: gps_wifi and frame_broadcast. gps_wifi broadcast GPS signals and frame_broadcast broadcast the frame.
+
+There are two Python clients: IoT_client_gps.py and IoT_client_frame.py. IoT_client_gps.py receives the GPS signals and IoT_client_frame.py receives the frame.
+
 > **This project is known to build with Xilinx Vivado 2017.4**
 
 Follow these steps to set up and run the detection system:
@@ -33,6 +37,7 @@ Follow these steps to set up and run the detection system:
 9. Connect the board to your computer using the USB cable and power on the board
 10. Program the board
 11. Launch the application on the MicroBlaze using SDK's Run Configuration manager
+12. Run client Python script on local system.
 
 ## Using the Detection System
 
